@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#009BFF"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="0.5"
+        android:gravity="center"
+        android:paddingLeft="40dp"
+        android:paddingTop="40dp"
+        android:paddingRight="40dp">
+
+        <ImageView
+            android:id="@+id/imgLogo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/logo" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="0.35"
+        android:paddingLeft="50dp"
+        android:paddingTop="20dp"
+        android:paddingRight="50dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="0px"
+                android:layout_weight="0.33">
+
+                <TextView
+                    android:id="@+id/txtContact"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Contact"
+                    android:textColor="#FFFFFF"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="0px"
+                android:layout_weight="0.33">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/txtAddress1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="101 North Road"
+                        android:textColor="#FFFFFF"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/txtAddress2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Chicago, IL 90388"
+                        android:textColor="#FFFFFF"
+                        android:textSize="18sp" />
+                </LinearLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="0px"
+                android:layout_weight="0.33">
+
+                <TextView
+                    android:id="@+id/txtMail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="contact@company.com"
+                    android:textColor="#FFFFFF"
+                    android:textSize="18sp" />
+            </RelativeLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="0.15"
+        android:paddingLeft="25dp"
+        android:paddingRight="25dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:layout_width="0px"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.25"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/imgPhone"
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"
+                    app:srcCompat="@drawable/phone" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="0px"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.25"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/imgMessage"
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"
+                    app:srcCompat="@drawable/message" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="0px"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.25"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/imgMail"
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"
+                    app:srcCompat="@drawable/mail" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="0px"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.25"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/imgLocation"
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"
+                    app:srcCompat="@drawable/location" />
+            </RelativeLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>
